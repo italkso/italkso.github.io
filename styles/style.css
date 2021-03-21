@@ -3,13 +3,13 @@
 
 /* Styling the page */
 html { 
-    color: rgba(223, 228, 234,1.0);
+    color: rgba(206, 214, 224,1.0);
     font-family: Helvetica, "Times New Roman",Arial, Georgia, Times, serif;
     font-size: 1.25em;
     max-width: 100%;
     line-height: 1.8;
     letter-spacing: 0.08em;
-    /*background-color: black;*/
+    background-color: rgba(9, 19, 33,1.0);
     background-image: url(../images/northern-lights.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,25 +40,16 @@ main#iosdev,#resource,#webdev,#bigpicture,#aboutme {
 nav {
     text-align: left;
     width: 100%;
-    padding: 15px 15px 5px 15px;
-    background-color: rgba(30, 39, 46,1.0);
+    padding: 10px 10px 5px 10px;
+    background-color: rgba(9, 19, 33,1.0);
     border-bottom-style: ridge;
     position: fixed;
     top: 0;
     display: flex;
 }
 
-nav img {
-    display: inline-block;
-    margin-left: -25px;
-    margin-bottom: -20px;
-    width: 10%;
-    height: 10%;
-}
-
 nav a:link, a:visited {
     color: whitesmoke;
-    font-weight: bold;
     padding: 0em 2rem 0rem 1.5rem;
     border-radius: 5px;
 }
@@ -72,7 +63,7 @@ nav a:hover, a:active {
 
 article article {
   /*font-size: 15px;*/
-  color: white;
+  color: rgba(206, 214, 224,1.0);
   margin: 3px;
 }
 
@@ -92,26 +83,26 @@ h1 {
 }
 
 h2 {
-  color:orange;
+  color:rgba(255, 159, 26,1.0);
   text-align: center;
 }
 
 h3 {
   padding: 5px;
-  color: rgba(255, 221, 89,1.0);
+  color: rgba(255, 159, 26,1.0);
 }
 
 a:link, a:visited {
     text-decoration: none;
     text-align: center;
-    color:rgba(52, 231, 228,1.0);
+    color: rgba(24, 220, 255,1.0);
     padding-right: 5px;
     display: inline-block;
   }
   
 a:hover, a:active { 
   text-decoration: underline;
-  color:rgba(255, 221, 89,1.0);
+  color:rgba(255, 159, 26,1.0);
 }
 
 p#topic a {
@@ -123,14 +114,14 @@ p#topic a {
 img {
     display: block;
   	margin: 0 auto;
-    max-width: 33%;
+    max-width: 30%;
     border-radius: 5px;
 }
 
 
 footer {
   color: whitesmoke;
-  background-color: black;
+  background-color: rgba(9, 19, 33,1.0);
   text-align: center;
   position: fixed;
   bottom: 0;
@@ -142,32 +133,6 @@ footer span {
   font-size: 25px;
 }
 
-/*Table*/
-caption {
-    padding: 20px;
-    caption-side: bottom;
-}
-
-table {
-    font-family: sans-serif;
-    font-size: .8rem;
-    letter-spacing: 1px;
-    margin: 0 auto;
-    margin-top: 100px;
-    border-collapse: collapse;
-    border: 3px normal white;
-    float: center;
-}
-
-td,th {
-    border: 1px solid rgb(190, 190, 190);
-    padding: 7px 5px;
-    text-align: center;
-}
-th {
-  color: orange;
-  background-color: rgba(72, 84, 96,1.0);
-}
 
 
 

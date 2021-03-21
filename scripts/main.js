@@ -13,10 +13,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(myImage === 'images/computer-8bit.png') {
-        myImage.setAttribute('src', 'images/computer-8bit.png');
+    if(myImage === 'images/computer-8bit-1.png') {
+        myImage.setAttribute('src', 'images/computer-8bit-1.png');
     } else {
-    	myImage.setAttribute('src', 'images/computer-8bit-1.png');
+    	myImage.setAttribute('src', 'images/computer-8bit.png');
     } 
 }
 
