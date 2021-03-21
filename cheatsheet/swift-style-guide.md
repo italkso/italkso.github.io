@@ -1,0 +1,86 @@
+## Source File
+
+- extension : `.swift`
+
+- encoding : `UTF-8`
+
+- whitespace characters 
+- special escape sequences : `\t`, `\n`, `\r`, `\"`, `\'`, `\\`, and `\0`
+
+- invisible characters and modifiers
+- string literals
+
+
+
+- Source File Basics
+  - File Names
+  - [File Encoding](https://google.github.io/swift/#file-encoding)
+  - [Whitespace Characters](https://google.github.io/swift/#whitespace-characters)
+  - [Special Escape Sequences](https://google.github.io/swift/#special-escape-sequences)
+  - [Invisible Characters and Modifiers](https://google.github.io/swift/#invisible-characters-and-modifiers)
+  - [String Literals](https://google.github.io/swift/#string-literals)
+- Source File Structure
+  - [File Comments](https://google.github.io/swift/#file-comments)
+  - [Import Statements](https://google.github.io/swift/#import-statements)
+  - [Type, Variable, and Function Declarations](https://google.github.io/swift/#type-variable-and-function-declarations)
+  - [Overloaded Declarations](https://google.github.io/swift/#overloaded-declarations)
+  - [Extensions](https://google.github.io/swift/#extensions)
+- General Formatting
+  - [Column Limit](https://google.github.io/swift/#column-limit)
+  - [Braces](https://google.github.io/swift/#braces)
+  - [Semicolons](https://google.github.io/swift/#semicolons)
+  - [One Statement Per Line](https://google.github.io/swift/#one-statement-per-line)
+  - Line-Wrapping
+    - [Function Declarations](https://google.github.io/swift/#function-declarations)
+    - [Type and Extension Declarations](https://google.github.io/swift/#type-and-extension-declarations)
+    - [Function Calls](https://google.github.io/swift/#function-calls)
+    - [Control Flow Statements](https://google.github.io/swift/#control-flow-statements)
+    - [Other Expressions](https://google.github.io/swift/#other-expressions)
+  - [Horizontal Whitespace](https://google.github.io/swift/#horizontal-whitespace)
+  - [Horizontal Alignment](https://google.github.io/swift/#horizontal-alignment)
+  - [Vertical Whitespace](https://google.github.io/swift/#vertical-whitespace)
+  - [Parentheses](https://google.github.io/swift/#parentheses)
+- Formatting Specific Constructs
+  - [Non-Documentation Comments](https://google.github.io/swift/#non-documentation-comments)
+  - [Properties](https://google.github.io/swift/#properties)
+  - [Switch Statements](https://google.github.io/swift/#switch-statements)
+  - [Enum Cases](https://google.github.io/swift/#enum-cases)
+  - [Trailing Closures](https://google.github.io/swift/#trailing-closures)
+  - [Trailing Commas](https://google.github.io/swift/#trailing-commas)
+  - [Numeric Literals](https://google.github.io/swift/#numeric-literals)
+  - [Attributes](https://google.github.io/swift/#attributes)
+- Naming
+  - [Apple’s API Style Guidelines](https://google.github.io/swift/#apples-api-style-guidelines)
+  - [Naming Conventions Are Not Access Control](https://google.github.io/swift/#naming-conventions-are-not-access-control)
+  - [Identifiers](https://google.github.io/swift/#identifiers)
+  - [Initializers](https://google.github.io/swift/#initializers)
+  - [Static and Class Properties](https://google.github.io/swift/#static-and-class-properties)
+  - [Global Constants](https://google.github.io/swift/#global-constants)
+  - [Delegate Methods](https://google.github.io/swift/#delegate-methods)
+- Programming Practices
+  - [Compiler Warnings](https://google.github.io/swift/#compiler-warnings)
+  - [Initializers](https://google.github.io/swift/#initializers-1)
+  - [Properties](https://google.github.io/swift/#properties-1)
+  - [Types with Shorthand Names](https://google.github.io/swift/#types-with-shorthand-names)
+  - [Optional Types](https://google.github.io/swift/#optional-types)
+  - [Error Types](https://google.github.io/swift/#error-types)
+  - [Force Unwrapping and Force Casts](https://google.github.io/swift/#force-unwrapping-and-force-casts)
+  - [Implicitly Unwrapped Optionals](https://google.github.io/swift/#implicitly-unwrapped-optionals)
+  - [Access Levels](https://google.github.io/swift/#access-levels)
+  - [Nesting and Namespacing](https://google.github.io/swift/#nesting-and-namespacing)
+  - [`guard`s for Early Exits](https://google.github.io/swift/#guards-for-early-exits)
+  - [`for`-`where` Loops](https://google.github.io/swift/#for-where-loops)
+  - [`fallthrough` in `switch` Statements](https://google.github.io/swift/#fallthrough-in-switch-statements)
+  - [Pattern Matching](https://google.github.io/swift/#pattern-matching)
+  - [Tuple Patterns](https://google.github.io/swift/#tuple-patterns)
+  - [Numeric and String Literals](https://google.github.io/swift/#numeric-and-string-literals)
+  - [Playground Literals](https://google.github.io/swift/#playground-literals)
+  - [Trapping vs. Overflowing Arithmetic](https://google.github.io/swift/#trapping-vs-overflowing-arithmetic)
+  - [Defining New Operators](https://google.github.io/swift/#defining-new-operators)
+  - [Overloading Existing Operators](https://google.github.io/swift/#overloading-existing-operators)
+- Documentation Comments
+  - [General Format](https://google.github.io/swift/#general-format)
+  - [Single-Sentence Summary](https://google.github.io/swift/#single-sentence-summary)
+  - [Parameter, Returns, and Throws Tags](https://google.github.io/swift/#parameter-returns-and-throws-tags)
+  - [Apple’s Markup Format](https://google.github.io/swift/#apples-markup-format)
+  - [Where to Document](https://google.github.io/swift/#where-to-document)

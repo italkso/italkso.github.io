@@ -1,0 +1,15 @@
+h3 {
+	text-align: center;
+}
+
+
+img {
+	display: block;
+	border-radius:10px;
+}
+
+p {
+   color:rgba(255, 221, 89,1.0);
+   text-align: center;
+   float:center;
+}
