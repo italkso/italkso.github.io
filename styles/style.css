@@ -9,8 +9,8 @@ html {
     max-width: 100%;
     line-height: 1.8;
     letter-spacing: 0.08em;
-    background-color: black;
-    /*background-image: url(../images/northern-lights.jpg);*/
+    /*background-color: black;*/
+    background-image: url(../images/northern-lights.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;	
