@@ -1,4 +1,4 @@
-# Hypertext Transfer Protocol (HTTP)
+# HTTP
 
 
 
@@ -6,13 +6,15 @@
 
 
 
-HTTP is an [application-layer](https://en.wikipedia.org/wiki/Application_Layer) protocol for transmitting hypermedia documents, such as HTML.
-
-HTTP is simple, extensible, stateless protocol. HTTP follows a classical [client-server model](https://en.wikipedia.org/wiki/Client–server_model)：requests are sent by one entity, the user-agent (or a proxy on behalf of it). Most of the time the user-agent is a Web browser.
+HTTP ( Hypertext Transfer Protocol ) is an [application-layer](https://en.wikipedia.org/wiki/Application_Layer) protocol for transmitting hypermedia documents, such as HTML. 
 
 
 
 <img src="cheat-sheet-images/HTTP.png" alt="HTTP as an application layer protocol, on top of TCP (transport layer) and IP (network layer) and below the presentation layer." style="zoom:33%;" />
+
+
+
+HTTP is a simple, extensible and stateless protocol which follows a classical [client-server model](https://en.wikipedia.org/wiki/Client–server_model). Requests are sent by one entity, the user-agent (or a proxy on behalf of it). Most of the time the user-agent is a Web browser.
 
 
 
@@ -29,8 +31,6 @@ HTTP is simple, extensible, stateless protocol. HTTP follows a classical [client
 - **HTTP Response**
 
 ![img](cheat-sheet-images/http_response.png)
-
-
 
 ## 3. [HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
@@ -105,11 +105,11 @@ CONNECT www.example.com:443 HTTP/1.1
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) | exchange data between a user agent and a server              |
 | [`Fetch API`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) | provides an interface for fetching resources (including across the network) |
-| [server-sent events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events) | a one-way service that allows a server to send events to the client, <br />using HTTP as a transport mechanism |
+| [`server-sent events`](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events) | a one-way service that allows a server to send events to the client, <br />using HTTP as a transport mechanism |
 
 
 
-**Reference**
+***Reference***
 
-https://developer.mozilla.org/en-US/docs/Web/HTTP
+[https://developer.mozilla.org/en-US/docs/Web/HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 

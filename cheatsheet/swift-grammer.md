@@ -1,6 +1,6 @@
-#   Grammer summary of Swift
+#   Summary of Swift 5.4
 
-Latest version - Swift 5.4
+
 
 ## Basics
 
@@ -103,8 +103,6 @@ as? - conditional form
 
 
 ### 2. Operator
-
-
 
 | Operators             | Classification       | Remarks                                                      |
 | --------------------- | -------------------- | ------------------------------------------------------------ |
@@ -416,7 +414,9 @@ let greeting = "Hi, \(nickName ?? "Shaun Murphy")"
 
 ![](cheat-sheet-images/collection-types.png)
 
-[Collection Types From Swfit.org ](https://docs.swift.org/swift-book/_images/CollectionTypes_intro_2x.png)
+Image from <https://docs.swift.org/swift-book/_images/CollectionTypes_intro_2x.png>
+
+
 
 #### Array
 
@@ -547,7 +547,7 @@ for color in myColors.sorted() {
 
 <img src="cheat-sheet-images/set-venn-diagram.png" alt="Set Venn Diagram" style="zoom: 33%;" />
 
-[Set Venn Diagram from Swift.org](https://docs.swift.org/swift-book/_images/setVennDiagram_2x.png)
+Image from <https://docs.swift.org/swift-book/_images/setVennDiagram_2x.png>
 
 ```swift
 //	Fundmental Set Operations
@@ -563,7 +563,7 @@ oddDigits.symmetricDifference(singleDigitPrimeNumbers).sorted()		// [1, 2, 9]
 
 <img src="cheat-sheet-images/set-euler-diagram.png" alt="Set Euler Diagram" style="zoom:33%;" />
 
-[Set Euler Diagram from Swift.org](https://docs.swift.org/swift-book/_images/setEulerDiagram_2x.png)
+Image from <https://docs.swift.org/swift-book/_images/setEulerDiagram_2x.png>
 
 ```swift
 //	Set Membership and Equality
@@ -720,7 +720,7 @@ switch point {
 guard else {
 		//	Do something if the conditions are not met
 }
-// 继续执行一般的动作
+// Do other things
 ```
 
 
@@ -1259,8 +1259,6 @@ Use structures by default, Use structures along with protocols to adopt behavior
 
 Use **classes** when you need **Objective-C** interoperability, or control the **identity** of the data you're modeling.
 
-- 
-
 
 
 #### Enumerations
@@ -1465,9 +1463,7 @@ print("The remembered direction is \(rememberedDirection)")
 
 
 
-![../_images/sharedStateStruct_2x.png](cheat-sheet-images/sharedStateStruct_2x.png)
-
-图片链接：https://docs.swift.org/swift-book/_images/sharedStateStruct_2x.png
+![../_images/sharedStateStruct_2x.png](cheat-sheet-images/sharedStateStruct_2x.png)Image from <https://docs.swift.org/swift-book/_images/sharedStateStruct_2x.png>
 
 ### Classes
 
@@ -1516,7 +1512,7 @@ Because classes are reference types, tenEighty and alsoTenEighty actually both r
 
 ![../_images/sharedStateClass_2x.png](cheat-sheet-images/sharedStateClass_2x.png)
 
-图片链接：https://docs.swift.org/swift-book/_images/sharedStateClass_2x.png
+Image from <https://docs.swift.org/swift-book/_images/sharedStateClass_2x.png>
 
 
 
@@ -2407,12 +2403,6 @@ let centerRect = Rect(center: Point(x: 4.0, y: 4.0),
 ```
 
 #### Class Inheritance and Initialization
-
-```swift
-
-```
-
-
 
 #### Deinitialization
 
@@ -3579,48 +3569,7 @@ do {
 }
 ````
 
-```swift
-//枚举类型描述可能的错误
-enum PrinterError: Error {
-    case outOfPaper
-    case noToner
-    case onFire
-}
 
-//使用 throw 抛出一个错误，并使用 throws 标记一个会抛出错误的函数。
-func send(job: Int, toPrinter printerName: String) throws -> String {
-    if printerName == "Never Has Toner" {
-        throw PrinterError.noToner
-    }
-    return "Job sent"
-}
-
-//使用使用 do-catch 处理错误
-do {
-    let printerResponse = try send(job: 1040, toPrinter: "Never Has Tone")
-    print(printerResponse)
-} catch {
-    print(error)
-}
-// 输出 "noToner", 如果 printerName 不等于“Never Has Toner”，将输出："Job sent"
-
-//使用多个不同的 catch 处理特定的错误
-do {
-    let printerResponse = try send(job: 1440, toPrinter: "Gutenberg")
-    print(printerResponse)
-} catch PrinterError.onFire {
-    print("I'll just put this over here, with the rest of the fire.")
-} catch let printerError as PrinterError {
-    print("Printer error: \(printerError).")
-} catch {
-    print(error)
-}
-// Prints "Job sent"
-
-//使用使用 try? 处理错误
-let printerSuccess = try? send(job: 1884, toPrinter: "Mergenthaler")
-let printerFailure = try? send(job: 1885, toPrinter: "Never Has Toner")
-```
 
 ## Access Control
 
@@ -3693,11 +3642,9 @@ if (passwd.count >= 4 && passwd.count <= 8){
 
 
 
+***Reference***
 
-
-https://swift.org
-
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+<https://swift.org>  [( CC BY 4.0 )](https://creativecommons.org/licenses/by/4.0/)
 
 
 

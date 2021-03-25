@@ -32,7 +32,7 @@ main {
   text-align: center;
 }
 
-main#iosdev,#resource,#webdev,#bigpicture,#aboutme {
+main#iosdev,#resource,#webdev,#bigpicture,#aboutme, #cheatsheet{
   text-align: left;
 }
  
@@ -40,17 +40,18 @@ main#iosdev,#resource,#webdev,#bigpicture,#aboutme {
 nav {
     text-align: left;
     width: 100%;
-    padding: 10px 10px 5px 10px;
-    background-color: rgba(9, 19, 33,1.0);
-    border-bottom-style: ridge;
+    padding: 10px 5px 5px 5px;
+    background: rgba(9, 19, 33,1.0);
+    border-bottom-style: hidden;
     position: fixed;
     top: 0;
-    display: flex;
+    display: block;
+    scroll-behavior: smooth;
 }
 
 nav a:link, a:visited {
     color: whitesmoke;
-    padding: 0em 2rem 0rem 1.5rem;
+    padding: 0em 1em 0em 1em;
     border-radius: 5px;
 }
 
@@ -115,6 +116,7 @@ img {
     display: block;
   	margin: 0 auto;
     max-width: 30%;
+    padding: 5px;
     border-radius: 5px;
 }
 
@@ -130,7 +132,12 @@ footer {
 }
 
 footer span {
-  font-size: 25px;
+  font-size: 20px;
+}
+
+main#cheatsheet li {
+  display: inline-block;
+  padding-right: 2.5em;
 }
 
 
