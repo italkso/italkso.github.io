@@ -1,7 +1,9 @@
 /*Table*/
 caption {
     padding: 20px;
-    caption-side: bottom;
+    font-size: 1.5em;
+    font-weight: bold;
+    caption-side: top;
 }
 
 table {
