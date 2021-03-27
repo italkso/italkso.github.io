@@ -13,12 +13,12 @@ table {
     width: 60%;
     margin: 0 auto;
     margin-top: 100px;
-    border: 0.1em ridge whitesmoke;
+    border: 0.05em ridge whitesmoke;
     float: center;
 }
 
 th,td {
-    border: 0.05em dashed whitesmoke;
+    border: 0.05em ridge whitesmoke;
     margin: 0 auto;
     padding: 10px;
     text-align: left;
