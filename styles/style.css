@@ -9,8 +9,8 @@ html {
     max-width: 100%;
     line-height: 1.8;
     letter-spacing: 0.08em;
-    background-color: rgba(9, 19, 33,1.0);
-    background-image: url(../images/northern-lights.jpg);
+    background-color: rgba(71, 63, 52,0.8);
+    background-image: url(../images/oleg-magni.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;	
@@ -41,8 +41,8 @@ nav {
     text-align: center;
     width: 100%;
     padding: 10px 5px 5px 5px;
-    background: black;
-    border-bottom: 0.05em ridge;
+    background-color: rgba(71, 63, 52,0.8);
+    /*border-bottom: 0.1em ridge;*/
     position: fixed;
     top: 0;
     display: block;
@@ -123,7 +123,7 @@ img {
 
 footer {
   color: whitesmoke;
-  background-color: black;
+  background-color: rgba(33, 35, 30,0.8);
   text-align: center;
   position: fixed;
   bottom: 0;
