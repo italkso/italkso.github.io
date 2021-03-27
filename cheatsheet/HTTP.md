@@ -83,9 +83,10 @@ CONNECT www.example.com:443 HTTP/1.1
 |                                      | 203          | Non-Authoritative Information |
 |                                      | 204          | No Content                    |
 |                                      | 205          | Reset Content                 |
-|                                      | 206          | Partial Content               |
+|                                      | 206          | <u>Partial Content</u>        |
 | **3XX ** ( Redirects )               | **300**      | Multiple Choices              |
 |                                      | 301          | Moved Permanently             |
+|                                      | 302          | <u>Moved Temporarily</u>      |
 |                                      | 307          | Temporary Redirect            |
 |                                      | 308          | Permanent Redirect            |
 | **4XX** ( Client Errors )            | **400**      | Bad Request                   |

@@ -5,7 +5,7 @@
 html { 
     color: rgba(206, 214, 224,1.0);
     font-family: Helvetica, "Times New Roman",Arial, Georgia, Times, serif;
-    font-size: 1.25em;
+    font-size: 1.15em;
     max-width: 100%;
     line-height: 1.8;
     letter-spacing: 0.08em;
@@ -38,11 +38,11 @@ main#iosdev,#resource,#webdev,#bigpicture,#aboutme, #cheatsheet{
  
 
 nav {
-    text-align: left;
+    text-align: center;
     width: 100%;
     padding: 10px 5px 5px 5px;
-    background: rgba(9, 19, 33,1.0);
-    border-bottom-style: hidden;
+    background: black;
+    border-bottom: 0.05em ridge;
     position: fixed;
     top: 0;
     display: block;
@@ -123,7 +123,7 @@ img {
 
 footer {
   color: whitesmoke;
-  background-color: rgba(9, 19, 33,1.0);
+  background-color: black;
   text-align: center;
   position: fixed;
   bottom: 0;

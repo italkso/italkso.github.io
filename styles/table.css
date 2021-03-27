@@ -8,26 +8,23 @@ caption {
 
 table {
     font-family: sans-serif;
-    font-size: .8rem;
+    font-size: 1rem;
     letter-spacing: 1px;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 100px;
-    border-radius: 5px;
-    border-color: yellow;
-    border-style: dashed;
-    border-collapse: collapse;
+    border: 0.1em ridge whitesmoke;
     float: center;
 }
 
 th,td {
-    border: 1px solid black;
+    border: 0.05em dashed whitesmoke;
     margin: 0 auto;
     padding: 10px;
     text-align: left;
-    color: black;
-    background-color: whitesmoke;
+    color: whitesmoke;
 }
+
 th {
-    color: black;
+    color: orange;
 }
