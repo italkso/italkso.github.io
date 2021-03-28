@@ -42,7 +42,7 @@ nav {
     width: 100%;
     padding: 10px 5px 5px 5px;
     background-color: rgba(71, 63, 52,0.8);
-    /*border-bottom: 0.1em ridge;*/
+    border-bottom: 0.1em ridge;
     position: fixed;
     top: 0;
     display: block;
