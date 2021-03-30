@@ -6,3 +6,7 @@ a:hover, a:active {
   text-decoration: underline;
   color:rgba(255, 159, 26,1.0);
 }
+
+/*main#resource {
+	column-count: 2;
+}*/
