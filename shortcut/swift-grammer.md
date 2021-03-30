@@ -412,7 +412,7 @@ let greeting = "Hi, \(nickName ?? "Shaun Murphy")"
 
 ### 7. Collection Types
 
-![](cheat-sheet-images/collection-types.png)
+![](Shortcut-images/collection-types.png)
 
 Image from <https://docs.swift.org/swift-book/_images/CollectionTypes_intro_2x.png>
 
@@ -545,7 +545,7 @@ for color in myColors.sorted() {
 }
 ```
 
-<img src="cheat-sheet-images/set-venn-diagram.png" alt="Set Venn Diagram" style="zoom: 33%;" />
+<img src="Shortcut-images/set-venn-diagram.png" alt="Set Venn Diagram" style="zoom: 33%;" />
 
 Image from <https://docs.swift.org/swift-book/_images/setVennDiagram_2x.png>
 
@@ -561,7 +561,7 @@ oddDigits.subtracting(singleDigitPrimeNumbers).sorted()				// [1, 9]
 oddDigits.symmetricDifference(singleDigitPrimeNumbers).sorted()		// [1, 2, 9]
 ```
 
-<img src="cheat-sheet-images/set-euler-diagram.png" alt="Set Euler Diagram" style="zoom:33%;" />
+<img src="Shortcut-images/set-euler-diagram.png" alt="Set Euler Diagram" style="zoom:33%;" />
 
 Image from <https://docs.swift.org/swift-book/_images/setEulerDiagram_2x.png>
 
@@ -1463,7 +1463,7 @@ print("The remembered direction is \(rememberedDirection)")
 
 
 
-![../_images/sharedStateStruct_2x.png](cheat-sheet-images/sharedStateStruct_2x.png)Image from <https://docs.swift.org/swift-book/_images/sharedStateStruct_2x.png>
+![../_images/sharedStateStruct_2x.png](Shortcut-images/sharedStateStruct_2x.png)Image from <https://docs.swift.org/swift-book/_images/sharedStateStruct_2x.png>
 
 ### Classes
 
@@ -1510,7 +1510,7 @@ if tenEighty === alsoTenEighty {
 
 Because classes are reference types, tenEighty and alsoTenEighty actually both refer to the same VideoMode instance. Effectively, they’re just two different names for the same single instance.
 
-![../_images/sharedStateClass_2x.png](cheat-sheet-images/sharedStateClass_2x.png)
+![../_images/sharedStateClass_2x.png](Shortcut-images/sharedStateClass_2x.png)
 
 Image from <https://docs.swift.org/swift-book/_images/sharedStateClass_2x.png>
 

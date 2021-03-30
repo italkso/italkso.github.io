@@ -10,7 +10,7 @@ HTTP ( Hypertext Transfer Protocol ) is an [application-layer](https://en.wikipe
 
 
 
-<img src="cheat-sheet-images/HTTP.png" alt="HTTP as an application layer protocol, on top of TCP (transport layer) and IP (network layer) and below the presentation layer." style="zoom:33%;" />
+<img src="Shortcut-images/HTTP.png" alt="HTTP as an application layer protocol, on top of TCP (transport layer) and IP (network layer) and below the presentation layer." style="zoom:33%;" />
 
 
 
@@ -18,7 +18,7 @@ HTTP is a simple, extensible and stateless protocol which follows a classical [c
 
 
 
-![Client server chain](cheat-sheet-images/client-server-chain.png)
+![Client server chain](Shortcut-images/client-server-chain.png)
 
 
 
@@ -26,11 +26,11 @@ HTTP is a simple, extensible and stateless protocol which follows a classical [c
 
 - **HTTP Request**
 
-![A basic HTTP request](cheat-sheet-images/http_request.png)
+![A basic HTTP request](Shortcut-images/http_request.png)
 
 - **HTTP Response**
 
-![img](cheat-sheet-images/http_response.png)
+![img](Shortcut-images/http_response.png)
 
 ## 3. [HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 

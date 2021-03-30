@@ -28,7 +28,7 @@ body {
 main {
   margin-top: 70px;
   margin-bottom: 100px; 
-  padding: 0 20px;
+  padding: 0 55px;
   text-align: left;
 }
 
@@ -57,25 +57,55 @@ nav {
   } 
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    text-align: center;
+    color: rgba(24, 220, 255,1.0);
+    padding-right: 5px;
+    display: inline-block;
+  }
+  
+a:hover, a:active { 
+  text-decoration: underline;
+  color:rgba(255, 159, 26,1.0);
+  transition: all 0.6s ease 0s;
+}
+
+
 nav a:link, a:visited {
-    color: whitesmoke;
-    background-color: rgba(71, 63, 52,0.8);
+    color: white;
+    background-color: rgba(71, 63, 52,1.0);
     padding: 0em 1em 0em 1em;
     display: inline-flex;
     flex: 1 1 auto;
     align-self: stretch;
     align-items: center;
     justify-content:center;
-    transition: all 0.5s ease 0s;
+    transition: all 0.4s ease 0s;
     text-decoration: none;
-    box-shadow: inset 0 -3px 0 orange;
+    box-shadow: inset 0 -3px 0 white;
 }
 
 nav a:hover, a:active {
+    color: black;
     background-color: red;
     text-decoration: none;
-    box-shadow: inset 0 -3px 0 whitesmoke;
-    transform: scale(1.1);
+    box-shadow: inset -1px 1px 0px red;
+}
+
+p.topic a{
+  display: block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  color: whitesmoke;
+}
+
+p.topic a:hover {
+  text-decoration: underline;
+  color: whitesmoke;
+  color:rgba(255, 159, 26,1.0);
+  transition: all 0.6s ease 0s;
 }
 
 
@@ -111,26 +141,6 @@ h3 {
   color: rgba(255, 159, 26,1.0);
 }
 
-a:link, a:visited {
-    text-decoration: none;
-    text-align: center;
-    color: rgba(24, 220, 255,1.0);
-    padding-right: 5px;
-    display: inline-block;
-  }
-  
-a:hover, a:active { 
-  text-decoration: underline;
-  color:rgba(255, 159, 26,1.0);
-  transition: all 0.5s ease 0s;
-  transform: scale(1.1);
-}
-
-p#topic a {
-  display: block;
-  line-height: 3rem;
-}
-
 /* Centering the image */
 img {
   display: block;
@@ -148,6 +158,9 @@ img.filter {
 
 figcaption {
   padding: 5px 0px;
+  color: orange;
+  font-weight: bold;
+  font-size: 1.25rem;
 }
 
 
@@ -165,7 +178,7 @@ footer span {
   font-size: 20px;
 }
 
-main#cheatsheet li {
+main#shortcut li {
   display: inline-block;
   padding-right: 2.5em;
 }
