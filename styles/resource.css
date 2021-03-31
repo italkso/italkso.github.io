@@ -1,8 +1,0 @@
-a:link, a:visited {
-    color:rgba(210, 218, 226,1.0);
-}
-
-a:hover, a:active { 
-  text-decoration: underline;
-  color:rgba(255, 159, 26,1.0);
-}

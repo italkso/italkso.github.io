@@ -58,7 +58,7 @@ nav {
 }
 
 a:link, a:visited {
-    text-decoration: none;
+    text-decoration: underline;
     text-align: center;
     color: rgba(11, 232, 129,1.0);
     padding: 8px;
@@ -66,7 +66,7 @@ a:link, a:visited {
   }
   
 a:hover, a:active { 
-  text-decoration: underline;
+  text-decoration: none;
   color:rgba(255, 63, 52,1.0);
   background-color: whitesmoke;
   border-radius: 8px;
@@ -97,18 +97,17 @@ nav a:hover, a:active {
 }
 
 p.topic a{
+  color: rgba(11, 232, 129,1.0);
   display: block;
   text-decoration: none;
   font-size: 1.2rem;
   line-height: 3rem;
-  color: whitesmoke;
 }
 
 p.topic a:hover {
-  text-decoration: underline;
-  color: whitesmoke;
-  color:rgba(255, 159, 26,1.0);
-  transition: all 0.6s ease 0s;
+  color: white;
+  background-color: black;
+  transition: all 0.5s ease 0s;
 }
 
 
