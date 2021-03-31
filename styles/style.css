@@ -60,15 +60,17 @@ nav {
 a:link, a:visited {
     text-decoration: none;
     text-align: center;
-    color: rgba(24, 220, 255,1.0);
-    padding-right: 5px;
+    color: rgba(11, 232, 129,1.0);
+    padding: 8px;
     display: inline-block;
   }
   
 a:hover, a:active { 
   text-decoration: underline;
-  color:rgba(255, 159, 26,1.0);
-  transition: all 0.6s ease 0s;
+  color:rgba(255, 63, 52,1.0);
+  background-color: whitesmoke;
+  border-radius: 8px;
+  transition: all 0.5s ease 0s;
 }
 
 
@@ -87,8 +89,9 @@ nav a:link, a:visited {
 }
 
 nav a:hover, a:active {
-    color: black;
-    background-color: red;
+    color: rgba(30, 39, 46,1.0);
+    background-color: rgba(255, 63, 52,1.0);
+    border-radius: 0px;
     text-decoration: none;
     box-shadow: inset -1px 1px 0px red;
 }
