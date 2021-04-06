@@ -11,9 +11,9 @@ html {
     letter-spacing: 0.08em;
     background-color: rgba(71, 63, 52,0.8);
     background-image: url(../images/oleg-magni.jpg);
-    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;	
+    background-repeat: no-repeat;
 }
 
 /* Styling the body */
