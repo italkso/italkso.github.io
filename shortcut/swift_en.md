@@ -16,8 +16,6 @@
 
 - **semicolons**  : forget semicolons ( `;` ) if you do not want to write multiple seperate statements on a single line.
 
-  
-
 - **Int** : Int has the same size as the current platform’s native word size.  (min / max properties)
 
 - **Double** : Double is  prefered for  floating-point numbers.
@@ -28,15 +26,11 @@
 
 - **Tuples** : group multiple values into a single compound value.
 
-  
-
-- **Optional** :  You use a optional where a value may be absent. Optional is  **enum** which has two cases :
+- **Optional** :   an **enum** which has two cases :
 
   - **Optional.none **for nil (he absence of a value)
 
   - **Optional.some** for a wrapped value. If there is a value, you can unwrap the optional to access the value.
-
-    
 
 - **Collection** 
 
@@ -1424,6 +1418,10 @@ print(evaluate(product))
 struct Resolution {
     var width = 0
     var height = 0
+    
+    func printInfo(){
+        print("Width:\(width),Height:\(height)")
+    }
 }
 
 //	Structure  Instances
