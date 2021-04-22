@@ -1,14 +1,8 @@
-#carousel ul {
-	max-Width:100%;
-	list-style: none;
-	text-align: center;
-	display: flex;				/* 是把当前元素设置为一个Flexbox */
-    align-items: center;		/* 在Flexbox中沿交叉轴对齐项目 */
-    justify-content: center;	
-}
-
-#carousel img {	
+.imageGroup img {	
+	margin: 0 auto;
+    max-width: 15%;
 	display: inline-flex;
-	flex-direction: column;
+	align-items: center;
+    justify-content: center;
 	padding: 20px;
 }
