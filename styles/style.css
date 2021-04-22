@@ -66,7 +66,7 @@ section {
 a:link, a:visited {
     text-decoration: none;
     text-align: center;
-    color: rgba(11, 232, 129,1.0);
+    color: rgba(11, 232, 129,0.8);
     padding: 8px;
     display: inline-flex;
     flex-direction: column;
@@ -100,12 +100,12 @@ nav a:hover, a:active {
     box-shadow: inset -1px 1px 0px red;
 }
 
-p.topic a{
-  color: rgba(11, 232, 129,1.0);
+p.topic a {
+  color: rgba(11, 232, 129,0.8);
   display: block;
   text-decoration: none;
-  font-size: 1.25rem;
-  line-height: 2.5rem;
+  font-size: 1.1rem;
+  line-height: 2rem;
 }
 
 p.topic a:hover {
@@ -172,7 +172,7 @@ figcaption {
 
 footer {
   color: whitesmoke;
-  background-color: rgba(71, 63, 52,0.8);
+  background-color: rgba(71, 63, 52,1);
   text-align: center;
   position: fixed;
   bottom: 0;
