@@ -93,7 +93,7 @@ nav a:link, a:visited {
 }
 
 nav a:hover, a:active {
-    color: rgba(30, 39, 46,1.0);
+    color: whitesmoke;
     background-color: rgba(255, 63, 52,1.0);
     border-radius: 0px;
     text-decoration: none;
