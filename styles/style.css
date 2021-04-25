@@ -13,9 +13,9 @@ html {
     background-image: url(../images/oleg-magni.jpg);
     background-attachment: fixed;
     background-position: center;	
-    background-size: cover;
+    /*background-size: cover;*/
     background-repeat: no-repeat;
-    background-blend-mode: normal;
+    /*background-blend-mode: normal;*/
 }
 
 /* Styling the body */
@@ -161,7 +161,7 @@ img {
 
 img.filter {
   box-shadow: initial;
-  filter: drop-shadow(0px 8px 5px rgba(251, 197, 49,0.5));
+  /*filter: drop-shadow(0px 8px 5px rgba(251, 197, 49,0.9));*/
 }
 
 figcaption {
@@ -189,6 +189,14 @@ footer span {
 main#shortcut li {
   display: inline-block;
   padding-right: 2.5em;
+}
+
+.scale:hover {
+  transform: scale(1.1);
+}
+
+.rotate:hover {
+  transform: rotate(180deg);
 }
 
 
