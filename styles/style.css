@@ -191,10 +191,6 @@ main#shortcut li {
   padding-right: 2.5em;
 }
 
-.scale:hover {
-  transform: scale(1.1);
-}
-
 .rotate:hover {
   transform: rotate(180deg);
 }
