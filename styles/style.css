@@ -34,10 +34,13 @@ main {
   text-align: left;
 }
 
-main.centerContent{
-   text-align: center;
+main.justifyContent {
+   text-align: justify;
 }
  
+ main.centerContent {
+   text-align: center;
+}
 
 nav {
     text-align: center;
@@ -75,7 +78,7 @@ a:link, a:visited {
     flex: 1 1 auto;
     align-self: center;
     align-items: stretch;
-    justify-content:center;
+    justify-content: center;
   }
   
 a:hover, a:active { 
@@ -104,10 +107,11 @@ nav a:hover, a:active {
 
 p.topic a {
   color: rgba(11, 232, 129,0.8);
-  display: block;
+  display: inline-block;
   text-decoration: none;
   font-size: 1.1rem;
   line-height: 2rem;
+
 }
 
 p.topic a:hover {
