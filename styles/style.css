@@ -108,7 +108,7 @@ nav a:hover, a:active {
 p.topic a {
   color: whitesmoke;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1.8rem;
 
   display: flex;
@@ -120,11 +120,13 @@ p.topic a {
 
 }
 
-/*@media (min-width: 31.25em) {
+@media (min-width: 31.25em) {
   p.topic a {
-    display: inline-flex;
+    font-size: 1rem;
+    display: block;
+    max-width: 60%;
   } 
-}*/
+}
 
 p.topic a:hover {
   color: black;
