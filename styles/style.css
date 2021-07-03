@@ -99,14 +99,14 @@ nav a:link, a:visited {
 
 nav a:hover, a:active {
     color: whitesmoke;
-    background-color: rgba(255, 63, 52,1.0);
+    background-color: rgba(11, 232, 129,0.8);
     border-radius: 0px;
     text-decoration: none;
-    box-shadow: inset -1px 1px 0px red;
+    box-shadow: inset 0px -3px 0px orange;
 }
 
 p.topic a {
-  color: rgba(11, 232, 129,0.8);
+  color: rgba(11, 232, 129,0.9);
   display: inline-block;
   text-decoration: none;
   font-size: 1.1rem;
