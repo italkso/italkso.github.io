@@ -69,7 +69,7 @@ section {
 }
 
 a:link, a:visited {
-    text-decoration: none;
+    text-decoration: underline;
     text-align: center;
     color: rgba(11, 232, 129,0.8);
     padding: 8px;
@@ -83,40 +83,45 @@ a:link, a:visited {
   
 a:hover, a:active { 
   text-decoration: underline;
-  color: rgba(235, 47, 6,1.0);
+  color: rgba(255, 159, 26,1.0);
   border-radius: 8px;
-  transition: all 0.5s ease 0s;
+  /*transition: all 0.1s ease 0s;*/
 }
 
 
 nav a:link, a:visited {
     color: white;
     background-color: rgba(71, 63, 52,1.0);
-    transition: all 0.4s ease 0s;
+    /*transition: all 0.1s ease 0s;*/
     text-decoration: none;
     box-shadow: inset 0 -1px 0 white;
 }
 
 nav a:hover, a:active {
-    color: whitesmoke;
-    background-color: rgba(11, 232, 129,0.8);
+    color: black;
+    background-color: rgba(11, 232, 129,1);
     border-radius: 0px;
     text-decoration: none;
-    box-shadow: inset 0px -1px 0px palevioletred;
+    box-shadow: inset 0px -1px 0px rgba(255, 159, 26,1.0);
 }
 
 p.topic a {
-  color: rgba(11, 232, 129,0.9);
-  display: inline-block;
+  color: rgba(39, 174, 96,1.0);
   text-decoration: none;
   font-size: 1.1rem;
   line-height: 2rem;
 
+  display: block;
+  margin: 0 auto;
+  max-width: 30%;
+  padding: 5px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 1px whitesmoke;
+
 }
 
 p.topic a:hover {
-  color: white;
-  background-color: black;
+  color: rgba(255, 159, 26,1.0);
   transition: all 0.5s ease 0s;
 }
 
@@ -169,18 +174,17 @@ img.filter {
 }
 
 figcaption {
+  font-size: 1.1rem;
+  font-weight: normal;
+  color: whitesmoke;
   padding: 5px 0px;
-  color: orange;
-  font-weight: bold;
-  font-size: 1.25rem;
 }
 
 
 footer {
   color: whitesmoke;
-  background-color: rgba(71, 63, 52,1);
   text-align: center;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   clear: both;
