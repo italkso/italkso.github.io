@@ -47,20 +47,20 @@ nav {
     width: 100%;
     min-height: 32px;
     margin-right: 1rem;
-    position: fixed;
+    position: relative;
     top: 0;
     /*FlexBox*/
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
 /* CSS Media Query */
-@media (min-width: 31.25em) {
+/*@media (min-width: 31.25em) {
   nav {
-    flex-direction: row;
+    flex-direction: column;
   } 
-}
+}*/
 
 section {
     display: flex;
@@ -99,7 +99,7 @@ nav a:link, a:visited {
 
 nav a:hover, a:active {
     color: black;
-    background-color: rgba(11, 232, 129,1);
+    background-color: rgba(11, 232, 129,0.9);
     border-radius: 0px;
     text-decoration: none;
     box-shadow: inset 0px -1px 0px rgba(255, 159, 26,1.0);
@@ -111,7 +111,7 @@ p.topic a {
   font-size: 1rem;
   line-height: 1.8rem;
 
-  display: block;
+  display: inline-flex;
   margin: 0 auto;
   max-width: 30%;
   padding: 10px;
@@ -120,9 +120,15 @@ p.topic a {
 
 }
 
+@media (min-width: 31.25em) {
+  p.topic a {
+    display: block;
+  } 
+}
+
 p.topic a:hover {
   color: black;
-  background-color: rgba(11, 232, 129,1);
+  background-color: rgba(11, 232, 129,0.9);
   transition: all 0.2s ease 0s;
 }
 
@@ -163,7 +169,7 @@ h3 {
 img {
     display: block;
     margin: 0 auto;
-    max-width: 30%;
+    max-width: 360px;
     padding: 5px;
 }
 
