@@ -112,11 +112,10 @@ p.topic a {
 
   display: block;
   margin: 0 auto;
-  width: 60%;
+  width: 54%;
   padding: 15px;
   border-radius: 30px;
   box-shadow: 0px 0px 1.5px whitesmoke;
-
 }
 
 /*@media (min-width: 31.25em) {
@@ -161,8 +160,34 @@ h2 {
 }
 
 h3 {
-  padding: 5px;
-  color: rgba(255, 159, 26,1.0);
+  text-align: center;
+  color: black;
+  background-color: rgba(11, 232, 129,0.9);
+
+  display: inline-flex;
+  margin: 0 auto;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 1.5px whitesmoke;
+}
+
+h4 {
+  text-align: justify;
+  color: whitesmoke;
+  background-color: black;
+
+  display: inline-flex;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 0px 0px 1.5px whitesmoke;
+}
+
+h4:hover {
+  color: black;
+  background-color: rgba(11, 232, 129,0.9);
+  transition: all 0.2s ease 0s;
 }
 
 /* Centering the image */

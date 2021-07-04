@@ -7,3 +7,8 @@
 	padding: 20px;
 }
 
+h3.center {
+	display: block;
+	align-items: center;
+    justify-content: center;
+}
