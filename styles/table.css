@@ -1,7 +1,7 @@
 /*Table*/
 
 caption {
-    padding: 20px;
+    padding: 25px;
     font-size: 1.5em;
     font-weight: bold;
     caption-side: top;
@@ -14,9 +14,9 @@ table {
     width: 80%;
     margin: 0 auto;
     margin-top: 100px;
-    border: 0.05em ridge whitesmoke;
+    border: 0.05em ridge ghostwhite;
     float: center;
-    box-shadow: 0px -3px 5px;
+    /*box-shadow: 2px -2px 2px;*/
 }
 
 th,td {
@@ -27,5 +27,6 @@ th,td {
 }
 
 th {
-    color: orange;
+    color: whitesmoke;
+    font-weight: bold;
 }
