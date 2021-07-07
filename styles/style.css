@@ -13,11 +13,10 @@ html {
     background-image: url(../images/oleg-magni.jpg);
     background-attachment: fixed;
     background-position: center;	
-    /*background-size: cover;*/
+    background-size: cover;
     background-repeat: no-repeat;
-    /*background-blend-mode: normal;*/
+    background-blend-mode: overlay;
 }
-
 /* Styling the body */
 body {
 	  width: 100%;
@@ -195,11 +194,12 @@ img {
     display: block;
     margin: 0 auto;
     max-width: 30%;
-    padding: 5px;
+    padding: 20px;
 }
 
 img.filter {
-  box-shadow: initial;
+  max-width: 20%;
+  box-shadow: firebrick;
   /*filter: drop-shadow(0px 8px 5px rgba(251, 197, 49,0.9));*/
 }
 
