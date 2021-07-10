@@ -114,7 +114,6 @@ p.topic a {
   width: 54%;
   padding: 15px;
   border-radius: 30px;
-  box-shadow: 0px 0px 1.5px whitesmoke;
 }
 
 /*@media (min-width: 31.25em) {
@@ -127,8 +126,6 @@ p.topic a {
 p.topic a:hover {
   color: black;
   background-color: rgba(11, 232, 129,0.9);
-  box-shadow: 0px 10px 10px black;
-  transition: all 0.2s ease 0s;
 }
 
 
